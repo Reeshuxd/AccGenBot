@@ -6,9 +6,9 @@
 
 // (c) Reeshuxd 2021
 
-
+const TOKEN = process.env.TOKEN
 const { Telegraf, Markup } = require('telegraf')
-const AccGen = new Telegraf("1878988670:AAHvZBDXdYnO89MoYme3y5HaIRQJHP_HSiQ")
+const AccGen = new Telegraf(TOKEN)
 const { os } = require('os')
 
 
