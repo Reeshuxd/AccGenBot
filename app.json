@@ -1,0 +1,36 @@
+{
+	"name": "AccGenBot",
+	"desceiption": "A TeleGram AccGenBot written in JavaScript",
+	"keywords": [
+		"telegram",
+		"javascript",
+		"telegram-bot"
+	],
+	"repository": "https://github.com/Reeshuxd/AccGenBot",
+	"website": "https://t.me/TheStarkXD",
+	"success_url": "https://t.me/TheTeleGramDevs",
+	"env": {
+		"TOKEN": {
+			"description": "Your TeleGram Bot Token!",
+			"value": ""
+		},
+		"CHANNEL_ID": {
+			"description": "Your Channel ID!",
+			"value": ""
+		},
+		"CHANNEL_US": {
+			"description": "Your TeleGram Channel Username!",
+			"value": ""
+		},
+		"ACC_NAME": {
+			"description": "Name Of The Account Bot Gonna Generate!",
+			"value": ""
+		}
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/nodejs"
+		}
+	]
+}
+
